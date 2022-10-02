@@ -1,0 +1,10 @@
+--
+- name: install slack
+  become: true
+  hosts: 127.0.0.1
+
+  tasks: 
+   - name: ensure slack is installed
+     apt:
+      name: slack
+      state: present

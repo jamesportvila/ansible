@@ -1,0 +1,10 @@
+---
+- name: install postman
+  hosts: 127.0.0.1
+
+  tasks:
+  - name: install through snapcraft
+    community.general.snap:
+      name: postman 
+      state: present
+      

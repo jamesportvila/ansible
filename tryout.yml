@@ -8,5 +8,7 @@
       name:
         - postman
         - code
+        - slack
+        - keepassx
       state: present
       
